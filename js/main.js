@@ -29,6 +29,8 @@ jQuery(document).ready(function( $ ) {
     }
   ];
   var myDoughnut = new Chart(document.getElementById("javascript").getContext("2d")).Doughnut(doughnutData);
+  var myDoughnut = new Chart(document.getElementById("javascriptt").getContext("2d")).Doughnut(doughnutData);
+
 
   // Bootstrap Chart
   var doughnutData = [{
